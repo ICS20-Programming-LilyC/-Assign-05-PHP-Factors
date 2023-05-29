@@ -1,0 +1,35 @@
+/* Created by: Lily C
+* Created on: 05/29/2023
+* This CSS file defines the style for index.php
+* -Assign-05-PHP-Factors
+*/
+
+body {
+  background-color: lightgray;
+  padding-left: 20px; padding-right: 20px;
+}
+
+h1 {
+  background-color: rgb(171, 171, 171);
+  color: hsl(232deg 17% 35%);
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  background-color: #4a4e69;
+  color: #bababa;
+}
+
+h3 {
+  color: #4a4e69;
+}
+
+h5 {
+  color: #5f4c67;
+}
+
+#results {
+  background-color: #bababa;
+  color: #1d1a1e;
+}
