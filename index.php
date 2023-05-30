@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <!--MDL theme-->
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-deep_purple.min.css" />
+     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-yellow.min.css" />
 
     <!--Title-->
     <title>Factors Webpage</title>
@@ -29,20 +29,28 @@
     <!--Header-->
     <?php echo "<h1>Factors Webpage with PHP</h1>"; ?>
 
-    <!--Text-->
-    <?php echo "<p>Welcome to our waffles breakfast company. With this webpage you can place an order for a waffle with your choice of topping and optional items. We have a variety of different sizes and toppings so that you can customize your own waffle. In addition with optional breakfast drinks and fried chicken tenders. We hope you enjoy your meal!</p>" ?>
+    <!--Welcoming text-->
+    <?php echo "<p>Welcome to my factors webpage! If you're ever stuck trying to determine the factors of a number, simply input your number and my program will display all the factors (including negatives)! I can display the factors in order (least to greatest) or I can display the factors in reversed order from (greatest to least). I will also indicate if the number you entered is even or odd. Hopefully, you find my website helpful!!</p>" ?>
 
     <!--Image-->
-    <br>
+      <br>
     <center>
-      <img src="./images/multiplicationColoredChart.jpg" alt="Multiplication chart image" width="500" height="300">
+      <img src="./images/secondMultiplicationChart.png" alt="Multiplication chart image" width="500" height="400">
     </center>
-    <br>
-    <br>
+      <br>
+      <br>
+
+    <!--Multiplication chart explanation text-->
+    <center>
+    <?php echo "<p>You can use the multiplication chart above to verify its factors.</p>";?>
+    </center>
+      
+    <!--Text-->
+    <?php echo "<h3>Please enter your input below:</h3>"; ?>
 
     <!--Form for user input-->
     <form action="./calculations.php" method="post" target="results">
-      <?php echo "<h4>Enter a number:</h4>"; ?>
+      <?php echo "<h6>Enter a number:</h6>"; ?>
       <input type="number" step="1" id="number" name="number" placeholder="Your number...">
       <br>
       <br>
